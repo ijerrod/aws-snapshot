@@ -11,4 +11,6 @@ script uses the configuration file created by AWS cli
 
 ## Running
 
-`pipenv run "python snapshot\snap.py"`
+`pipenv run "python snapshot\snap.py <command> <--project=PROJECT>"`
+*command* list, stop, start
+*project* optional
